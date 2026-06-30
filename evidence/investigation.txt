@@ -1,0 +1,19 @@
+Issue
+
+Application cannot read DynamoDB.
+
+Observed
+
+AWS SDK is using the Node IAM Role.
+
+Expected
+
+Application should assume IAM Role through IRSA.
+
+Finding
+
+Service Account has no IAM Role annotation.
+
+Result
+
+IRSA not working.

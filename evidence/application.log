@@ -1,0 +1,18 @@
+2026-05-10T08:12:13Z ERROR
+
+botocore.exceptions.ClientError:
+
+An error occurred (AccessDeniedException)
+
+when calling the GetItem operation:
+
+User:
+arn:aws:sts::123456789012:assumed-role/eks-nodegroup-role
+
+is not authorized to perform:
+
+dynamodb:GetItem
+
+on resource:
+
+arn:aws:dynamodb:ap-south-1:123456789012:table/customer-data
